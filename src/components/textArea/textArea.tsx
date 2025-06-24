@@ -1,5 +1,3 @@
-import React from 'react';
-
 const TextArea = () => {
     return (
         <div>
@@ -8,4 +6,4 @@ const TextArea = () => {
     );
 };
 
-export default TextArea;
+export  default TextArea;
