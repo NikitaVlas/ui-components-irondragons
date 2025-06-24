@@ -1,6 +1,6 @@
 :root {
   /* globals */
-  --font-family: system-ui, sans-serif;
+  --font-family: 'Inter', system-ui, sans-serif;
 
   /* font-sizes */
   --font-size-xs: 12px;
@@ -8,11 +8,12 @@
   --font-size-m: 16px;
   --font-size-l: 18px;
   --font-size-xl: 20px;
-  --font-size-xxl: 22px;
+  --font-size-xxl: 26px;
 
   /* line-heights */
+  --line-height-s: 16px;
   --line-height-m: 24px;
-  --line-height-xl: 36px;
+  --line-height-l: 36px;
 
   /* font-weights */
   --font-weight-regular: 400;
@@ -20,3 +21,11 @@
   --font-weight-semi-bold: 600;
   --font-weight-bold: 700;
 }
+
+//
+//.large {
+//  font-family: var(--font-family);
+//  font-size: var(--font-size-xxl);
+//  line-height: var(--line-height-l);
+//}
+//
